@@ -5,6 +5,8 @@
 這裡只單純紀錄如何取得ACC、GYRO的資料，詳細設定請參考https://github.com/FemmeVerbeek/Arduino_LSM9DS1
 setAccelFS(.): 0=±2g、1=±4g、2=±8g、3=±16g  (Github上文件似乎有誤，Acc的scale要確認)
 setAccelODR(.):0=off、1=10Hz、2=50Hz、3=119Hz、4=238Hz、5=476Hz (Gyro和Acc共用)
+比較詳細的設定請參考作者Git
+另外就是datasheet: https://www.st.com/resource/en/datasheet/lsm9ds1.pdf
 */ 
 
 #include <Arduino_LSM9DS1.h>
