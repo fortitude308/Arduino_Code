@@ -3,7 +3,7 @@
 */
 
 unsigned long t0, preval=0;
-long sampling_rate = 1; //sampling rate in Hz
+long sampling_rate = 1000; //sampling rate in Hz
 long micro_sec = 1000000/sampling_rate; 
 // 1 Hz = 10^6 micro second
 // 10Hz = 10^5 micro second
